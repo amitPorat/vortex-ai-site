@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import Image from "next/image";
 import { useLocale } from "@/context/LocaleContext";
 import { content } from "@/lib/content";
 
@@ -19,10 +20,9 @@ export function Hero() {
       {/* Background: gradient + grid + optional hero image (replace src with Gemini image) */}
       <div className="absolute inset-0 bg-grid opacity-60" aria-hidden />
       <div className="absolute inset-0 bg-gradient-to-b from-slate-900/40 via-transparent to-slate-900" aria-hidden />
-      {/* Optional: decorative hero image - uncomment and set src to your image path */}
-      {/* <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[45%] max-w-xl opacity-20 hidden lg:block">
+      <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[45%] max-w-xl opacity-25 hidden lg:block pointer-events-none">
         <Image src="/hero-visual.png" alt="" width={600} height={400} className="object-contain" />
-      </div> */}
+      </div>
 
       <div className="relative mx-auto max-w-4xl text-center">
         <motion.div

@@ -9,8 +9,7 @@ export function Founder() {
   const { locale } = useLocale();
   const t = content[locale].founder;
 
-  /* תמונת מייסד: שים קובץ ב-public/founder.jpg (למשל תמונה מ-Gemini) ותוצג אוטומטית */
-  const hasFounderImage = false; // שנה ל-true אחרי שתוסיף public/founder.jpg
+  const hasFounderImage = true;
 
   return (
     <section className="relative px-4 py-20 sm:px-6 lg:px-8" id="about">
@@ -34,7 +33,7 @@ export function Founder() {
             <div className="relative h-40 w-40 overflow-hidden rounded-2xl border-2 border-white/10 bg-slate-700/50">
               {hasFounderImage ? (
                 <Image
-                  src="/founder.jpg"
+                  src="/Gemini_Generated_Image_blgn0xblgn0xblgn.png"
                   alt={t.name}
                   width={160}
                   height={160}
