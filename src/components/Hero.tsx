@@ -17,14 +17,23 @@ export function Hero() {
 
   return (
     <section className="relative min-h-[90vh] flex flex-col justify-center overflow-hidden px-4 pt-24 pb-16 sm:px-6 lg:px-8">
-      {/* Background: gradient + grid + optional hero image (replace src with Gemini image) */}
-      <div className="absolute inset-0 bg-grid opacity-60" aria-hidden />
-      <div className="absolute inset-0 bg-gradient-to-b from-slate-900/40 via-transparent to-slate-900" aria-hidden />
-      <div className="absolute right-0 top-1/2 -translate-y-1/2 w-[45%] max-w-xl opacity-25 hidden lg:block pointer-events-none">
-        <Image src="/hero-visual.png" alt="" width={600} height={400} className="object-contain" />
+      {/* Full-section hero background image */}
+      <div className="absolute inset-0" aria-hidden>
+        <Image
+          src="/hero-visual.png"
+          alt=""
+          fill
+          className="object-cover"
+          sizes="100vw"
+          priority
+        />
       </div>
+      {/* Dark overlay so text stays readable */}
+      <div className="absolute inset-0 bg-slate-900/75" aria-hidden />
+      <div className="absolute inset-0 bg-grid opacity-40" aria-hidden />
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-900/50 via-transparent to-slate-900/90" aria-hidden />
 
-      <div className="relative mx-auto max-w-4xl text-center">
+      <div className="relative z-10 mx-auto max-w-4xl text-center">
         <motion.div
           initial={{ opacity: 0, y: 12 }}
           animate={{ opacity: 1, y: 0 }}
