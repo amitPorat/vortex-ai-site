@@ -41,11 +41,6 @@ export function Pricing() {
                   : ""
               }`}
             >
-              {i === 0 && (
-                <span className="mx-auto mb-2 inline-flex rounded-full border border-accent-teal/50 bg-accent-teal/20 px-3 py-1 text-xs font-semibold text-cyan-200">
-                  {locale === "en" ? "Paid Sprint" : "מסלול בתשלום"}
-                </span>
-              )}
               <span className="text-3xl font-bold text-accent-teal">
                 {steps[i]}
               </span>
