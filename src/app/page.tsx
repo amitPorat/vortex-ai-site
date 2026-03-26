@@ -18,6 +18,7 @@ export default function Home() {
           fill
           className="object-cover opacity-10"
           sizes="100vw"
+          priority
         />
         <div className="absolute inset-0 bg-gradient-to-b from-slate-900/10 via-slate-900/55 to-slate-900/85" />
       </div>

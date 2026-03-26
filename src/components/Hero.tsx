@@ -17,9 +17,9 @@ export function Hero() {
   return (
     <section className="relative min-h-[90vh] flex flex-col justify-center overflow-hidden px-4 pt-24 pb-16 sm:px-6 lg:px-8">
       {/* Overlays over global page background image */}
-      <div className="absolute inset-0 bg-slate-900/65" aria-hidden />
+      <div className="absolute inset-0 bg-slate-900/45" aria-hidden />
       <div className="absolute inset-0 bg-grid opacity-40" aria-hidden />
-      <div className="absolute inset-0 bg-gradient-to-b from-slate-900/50 via-transparent to-slate-900/90" aria-hidden />
+      <div className="absolute inset-0 bg-gradient-to-b from-slate-900/30 via-transparent to-slate-900/85" aria-hidden />
 
       <div className="relative z-10 mx-auto max-w-4xl text-center">
         <motion.div
