@@ -10,8 +10,8 @@ export const content = {
     hero: {
       headline: "Turning Complex Data into Profit, Forecasting, and Automation.",
       subheadline:
-        "End-to-End Data & AI solutions for the public sector and enterprise organizations. From data mining to cloud-deployed smart systems.",
-      cta: "Schedule a Consultation",
+        "End-to-End Predictive Data & AI solutions for Government, Enterprise, and Global Tech. Transforming complex data into operational forecasting and strategic growth.",
+      cta: "Book a Free Intro Call",
       socialProof:
         "Trusted by experts from National Data Centers & Global Tech",
     },
@@ -39,16 +39,16 @@ export const content = {
       title: "Services",
       items: [
         {
-          title: "Data Audit & Cleansing",
-          desc: "Connecting to sources, detecting anomalies",
+          title: "Data Audit & Operational Sprints",
+          desc: "Accelerating data readiness by connecting sources and ensuring high-quality, actionable data.",
         },
         {
-          title: "Vectorization & AI Prep",
-          desc: "Transforming tabular/text data into mathematical representation",
+          title: "Feature Engineering & Behavioral Modeling",
+          desc: "Transforming raw, unstructured, or tabular data into powerful mathematical representations for predictive analytics.",
         },
         {
-          title: "Predictive Models & RAG",
-          desc: "Complex algorithms & semantic organizational search",
+          title: "Predictive Analytics & Smart Search (RAG)",
+          desc: "Building custom forecasting models and semantic organizational search systems for faster decision-making.",
         },
         {
           title: "MLOps & Integration",
@@ -56,10 +56,30 @@ export const content = {
         },
       ],
     },
+    whoWeServe: {
+      title: "Who We Serve",
+      items: [
+        {
+          title: "Public Sector & Gov",
+          desc: "Secure, On-Premise AI deployment, Data Masking/Anonymization, and Regulatory Compliance. We speak the language of government data centers.",
+        },
+        {
+          title: "Enterprise & Global Tech",
+          desc: "Custom Recommendation Systems, Churn Prediction, Behavioral Analytics, and Rapid MVP Development to dominate market share.",
+        },
+        {
+          title: "Traditional Industry & Infrastructure",
+          desc: "Process Optimization, Predictive Maintenance, and Supply Chain Forecasting without disrupting core operations.",
+        },
+      ],
+    },
     pricing: {
       title: "Transparent & Results-Driven Model",
       steps: [
-        { label: "Validation", desc: "Free validation" },
+        {
+          label: "Discovery Sprint",
+          desc: "Paid, high-impact data audit. Map gaps and potential within one week (credited towards the full MVP).",
+        },
         { label: "Fixed-Price Pilot (PoC)", desc: "Minimum risk" },
         { label: "Retainer", desc: "Data Office – model maintenance" },
       ],
@@ -68,7 +88,7 @@ export const content = {
       name: "Amit Porat",
       role: "Founder & Lead Data Scientist",
       linkedIn: "https://www.linkedin.com/in/amit-porat-131446117/",
-      bio: "Lead Data Scientist bridging economics and deep tech. Proven experience in the public sector (Water Authority, Gov) and enterprise innovation (Amdocs). Expert in PINN, time-series, and automation.",
+      bio: "Lead Data Scientist and Consultant, Amit Porat, bridges the gap between high-level economics and operational deep tech. With proven experience at the Water Authority, Gov tech initiatives, and Amdocs' Innovation Lab, he delivers end-to-end mathematical models that solve critical business challenges. Expert in forecasting, process automation, and high-impact predictive analytics.",
     },
     contact: {
       title: "Get in Touch",
@@ -85,14 +105,14 @@ export const content = {
   he: {
     nav: {
       logo: "Vortex Data & AI",
-      langToggle: "EN",
+      langToggle: "English",
       cta: "צור קשר",
     },
     hero: {
       headline: "הופכים נתונים מורכבים לרווח, חיזוי ואוטומציה.",
       subheadline:
-        "פתרונות Data & AI מקצה לקצה למגזר הציבורי ולארגוני אנטרפרייז. משלב כריית הנתונים ועד למערכת חכמה שרצה בענן.",
-      cta: "קביעת פגישת ייעוץ",
+        "פתרונות Predictive Data & AI מקצה לקצה לממשלה, אנטרפרייז וחברות טכנולוגיה גלובליות. הופכים דאטה מורכב לחיזוי תפעולי ולצמיחה אסטרטגית.",
+      cta: "קביעת שיחת היכרות ללא עלות",
       socialProof:
         "בליווי מומחים יוצאי גופי דאטה לאומיים ותאגידי הייטק",
     },
@@ -120,16 +140,16 @@ export const content = {
       title: "שירותים",
       items: [
         {
-          title: "אבחון וניקוי דאטה",
-          desc: "חיבור למקורות, זיהוי אנומליות",
+          title: "Data Audit ו-Operational Sprints",
+          desc: "מאיצים מוכנות דאטה באמצעות חיבור מקורות והבטחת נתונים איכותיים וישימים.",
         },
         {
-          title: "הכנה ל-AI ווקטוריזציה",
-          desc: "הפיכת נתונים לייצוג מתמטי",
+          title: "Feature Engineering ו-Behavioral Modeling",
+          desc: "המרת דאטה גולמי, טבלאי או לא מובנה לייצוגים מתמטיים עוצמתיים עבור אנליטיקה חזויה.",
         },
         {
-          title: "מודלי חיזוי ומנועי RAG",
-          desc: "אלגוריתמיקה מתקדמת וחיפוש ארגוני",
+          title: "Predictive Analytics ו-Smart Search (RAG)",
+          desc: "בניית מודלי חיזוי מותאמים ומערכות חיפוש סמנטי ארגוני לקבלת החלטות מהירה יותר.",
         },
         {
           title: "אינטגרציה ופרודקשן",
@@ -137,10 +157,30 @@ export const content = {
         },
       ],
     },
+    whoWeServe: {
+      title: "למי אנחנו נותנים ערך",
+      items: [
+        {
+          title: "מגזר ציבורי וממשלה",
+          desc: "פריסת AI מאובטחת On-Premise, אנונימיזציה/מיסוך נתונים ועמידה ברגולציה. אנחנו מדברים את השפה של מרכזי הדאטה הממשלתיים.",
+        },
+        {
+          title: "אנטרפרייז ו-Global Tech",
+          desc: "מערכות המלצה מותאמות, חיזוי נטישה, אנליטיקה התנהגותית ופיתוח MVP מהיר לחיזוק יתרון תחרותי.",
+        },
+        {
+          title: "תעשייה ותשתיות מסורתיות",
+          desc: "אופטימיזציית תהליכים, תחזוקה חזויה וחיזוי שרשרת אספקה ללא שיבוש הפעילות הליבתית.",
+        },
+      ],
+    },
     pricing: {
       title: "מודל עבודה שקוף וממוקד",
       steps: [
-        { label: "ולידציה", desc: "ולידציה חינם" },
+        {
+          label: "Discovery Sprint",
+          desc: "Data audit בתשלום ובאימפקט גבוה: מיפוי פערים ופוטנציאל תוך שבוע (מזוכה במעבר ל-MVP מלא).",
+        },
         { label: "פיילוט במחיר סגור", desc: "מינימום סיכון (PoC)" },
         { label: "תחזוקת מודלים", desc: "Data Office" },
       ],
@@ -149,7 +189,7 @@ export const content = {
       name: "עמית פורת",
       role: "מייסד ומדען נתונים ראשי",
       linkedIn: "https://www.linkedin.com/in/amit-porat-131446117/",
-      bio: "מומחה למדעי הנתונים המשלב כלכלה וטכנולוגיה עמוקה. ניסיון במגזר הציבורי (רשות המים, ממשלה) וחדשנות מתאגידים (Amdocs). מומחה במודלים פיזיקליים (PINN), סדרות זמן ואוטומציה.",
+      bio: "עמית פורת, Lead Data Scientist ויועץ, מחבר בין כלכלה ברמה גבוהה ל-Deep Tech תפעולי. עם ניסיון מוכח ברשות המים, יוזמות GovTech ומעבדת החדשנות של Amdocs, הוא מוביל מודלים מתמטיים מקצה לקצה לפתרון אתגרים עסקיים קריטיים. מומחה בחיזוי, אוטומציית תהליכים ואנליטיקה חזויה עתירת אימפקט.",
     },
     contact: {
       title: "צור קשר",

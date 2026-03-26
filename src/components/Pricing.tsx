@@ -35,8 +35,17 @@ export function Pricing() {
               whileHover={{ y: -4, transition: { duration: 0.2 } }}
               viewport={{ once: true }}
               transition={{ delay: i * 0.1 }}
-              className="glass flex flex-1 flex-col rounded-2xl p-6 text-center transition-shadow hover:shadow-glow"
+              className={`glass flex flex-1 flex-col rounded-2xl p-6 text-center transition-shadow hover:shadow-glow ${
+                i === 0
+                  ? "border-2 border-accent-teal/60 bg-accent-teal/10 shadow-glow"
+                  : ""
+              }`}
             >
+              {i === 0 && (
+                <span className="mx-auto mb-2 inline-flex rounded-full border border-accent-teal/50 bg-accent-teal/20 px-3 py-1 text-xs font-semibold text-cyan-200">
+                  {locale === "en" ? "Paid Sprint" : "מסלול בתשלום"}
+                </span>
+              )}
               <span className="text-3xl font-bold text-accent-teal">
                 {steps[i]}
               </span>
