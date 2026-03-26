@@ -37,7 +37,7 @@ export function Founder() {
                   alt={t.name}
                   width={160}
                   height={160}
-                  className="h-full w-full object-cover"
+                  className="h-full w-full object-cover object-[50%_28%]"
                 />
               ) : (
                 <span

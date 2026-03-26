@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import Image from "next/image";
 import { useLocale } from "@/context/LocaleContext";
 import { content } from "@/lib/content";
 
@@ -17,19 +16,8 @@ export function Hero() {
 
   return (
     <section className="relative min-h-[90vh] flex flex-col justify-center overflow-hidden px-4 pt-24 pb-16 sm:px-6 lg:px-8">
-      {/* Full-section hero background image */}
-      <div className="absolute inset-0" aria-hidden>
-        <Image
-          src="/hero-visual.png"
-          alt=""
-          fill
-          className="object-cover"
-          sizes="100vw"
-          priority
-        />
-      </div>
-      {/* Dark overlay so text stays readable */}
-      <div className="absolute inset-0 bg-slate-900/75" aria-hidden />
+      {/* Overlays over global page background image */}
+      <div className="absolute inset-0 bg-slate-900/65" aria-hidden />
       <div className="absolute inset-0 bg-grid opacity-40" aria-hidden />
       <div className="absolute inset-0 bg-gradient-to-b from-slate-900/50 via-transparent to-slate-900/90" aria-hidden />
 

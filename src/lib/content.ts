@@ -88,7 +88,7 @@ export const content = {
       name: "Amit Porat",
       role: "Founder & Lead Data Scientist",
       linkedIn: "https://www.linkedin.com/in/amit-porat-131446117/",
-      bio: "Lead Data Scientist and Consultant, Amit Porat, bridges the gap between high-level economics and operational deep tech. With proven experience at the Water Authority, Gov tech initiatives, and Amdocs' Innovation Lab, he delivers end-to-end mathematical models that solve critical business challenges. Expert in forecasting, process automation, and high-impact predictive analytics.",
+      bio: "Lead Data Scientist and Consultant, Amit Porat, has been turning complex data into measurable business value for years. With proven experience at the Water Authority, Gov tech initiatives, and Amdocs' Innovation Lab, he delivers end-to-end data and AI systems that solve critical operational challenges. Expert in forecasting, process automation, and high-impact predictive analytics.",
     },
     contact: {
       title: "Get in Touch",
@@ -189,7 +189,7 @@ export const content = {
       name: "עמית פורת",
       role: "מייסד ומדען נתונים ראשי",
       linkedIn: "https://www.linkedin.com/in/amit-porat-131446117/",
-      bio: "עמית פורת, Lead Data Scientist ויועץ, מחבר בין כלכלה ברמה גבוהה ל-Deep Tech תפעולי. עם ניסיון מוכח ברשות המים, יוזמות GovTech ומעבדת החדשנות של Amdocs, הוא מוביל מודלים מתמטיים מקצה לקצה לפתרון אתגרים עסקיים קריטיים. מומחה בחיזוי, אוטומציית תהליכים ואנליטיקה חזויה עתירת אימפקט.",
+      bio: "עמית פורת, Lead Data Scientist ויועץ, מייצר ערך עסקי מדאטה מורכב כבר שנים. עם ניסיון מוכח ברשות המים, יוזמות GovTech ומעבדת החדשנות של Amdocs, הוא מוביל פתרונות Data ו-AI מקצה לקצה לפתרון אתגרים תפעוליים ועסקיים קריטיים. מומחה בחיזוי, אוטומציית תהליכים ואנליטיקה חזויה עתירת אימפקט.",
     },
     contact: {
       title: "צור קשר",
