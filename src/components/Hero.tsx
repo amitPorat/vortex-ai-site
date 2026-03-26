@@ -62,6 +62,11 @@ export function Hero() {
           >
             {t.cta}
           </motion.button>
+          <p className="mt-2 text-center text-sm text-slate-500">
+            {locale === "en"
+              ? "No commitment. Let's map your data reality first."
+              : "ללא התחייבות. בואו נמפה את מצב הדאטה שלכם קודם."}
+          </p>
         </motion.div>
         <motion.p
           initial={{ opacity: 0 }}
