@@ -78,7 +78,7 @@ export const content = {
       steps: [
         {
           label: "Discovery Sprint",
-          desc: "Paid, high-impact data audit. Map gaps and potential within one week (credited towards the full MVP).",
+          desc: "High-impact data audit. Map gaps and potential within one week (credited towards the full MVP).",
         },
         { label: "Fixed-Price Pilot (PoC)", desc: "Minimum risk" },
         { label: "Retainer", desc: "Data Office – model maintenance" },
@@ -179,7 +179,7 @@ export const content = {
       steps: [
         {
           label: "Discovery Sprint",
-          desc: "Data audit בתשלום ובאימפקט גבוה: מיפוי פערים ופוטנציאל תוך שבוע (מזוכה במעבר ל-MVP מלא).",
+          desc: "Data audit באימפקט גבוה: מיפוי פערים ופוטנציאל תוך שבוע (מזוכה במעבר ל-MVP מלא).",
         },
         { label: "פיילוט במחיר סגור", desc: "מינימום סיכון (PoC)" },
         { label: "תחזוקת מודלים", desc: "Data Office" },

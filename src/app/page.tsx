@@ -16,11 +16,11 @@ export default function Home() {
           src="/hero-visual.png"
           alt=""
           fill
-          className="object-cover opacity-10"
+          className="object-cover opacity-20"
           sizes="100vw"
           priority
         />
-        <div className="absolute inset-0 bg-gradient-to-b from-slate-900/10 via-slate-900/55 to-slate-900/85" />
+        <div className="absolute inset-0 bg-gradient-to-b from-slate-900/0 via-slate-900/45 to-slate-900/82" />
       </div>
       <div className="relative z-10">
         <Nav />
